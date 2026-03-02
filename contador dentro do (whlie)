@@ -1,0 +1,6 @@
+horario = 0
+while horario <= 19:
+    print(horario)
+    horario = horario + 1
+
+print("Fim do loop while")

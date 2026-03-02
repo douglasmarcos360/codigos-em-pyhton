@@ -1,0 +1,4 @@
+nome = ""
+while nome == "":
+    nome = input("Digite seu nome: ")
+print("Olá, " + nome + "! Seja bem-vindo(a) ao curso de Python!")

@@ -1,0 +1,14 @@
+nome_do_usuario = ''
+senha = ''
+tentativas = 0
+while (nome_do_usuario != "douglas" or senha != "2026") and tentativas < 3:
+    nome_do_usuario = input("Digite seu nome de usuário: ") 
+    senha = input("Digite sua senha: ")
+    tentativas = tentativas + 1
+    if nome_do_usuario == 'douglas' and senha == '2026':
+        print("Login bem-sucedido! Bem-vindo, Douglas!")
+    else:
+        tentativas_restantes = 3 - tentativas
+        print(f"Login falhou! Você tem {tentativas_restantes} tentativas restantes.")
+if tentativas == 3:
+    print("Número máximo de tentativas atingido. Acesso bloqueado.")

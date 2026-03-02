@@ -1,0 +1,5 @@
+senhas = ["12345", "senha123", "abc", "minhasenha", "123456789"]
+for senha in senhas:
+    if len(senha) >=6:
+        print(f"{senha} - Senha forte")
+    else:        print(f"{senha} - Senha fraca")
