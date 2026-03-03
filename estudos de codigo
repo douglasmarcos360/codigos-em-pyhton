@@ -1,0 +1,7 @@
+## CODIGO FEITO EM PYTHON
+
+seu_salario = float(input("Digite o seu salário: "))
+horas_que_voce_trabalha_por_dia = float(input("Digite as horas que você trabalha por dia: "))
+horas_trabalhadas = seu_salario / horas_que_voce_trabalha_por_dia
+print("Você ganha", horas_trabalhadas, "horas por dia.")
+
